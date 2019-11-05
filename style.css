@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap");
+
+:root {
+  --vdblue: hsl(243, 87%, 12%);
+  --dblue: hsl(238, 22%, 44%);
+  --bblue: hsl(224, 93%, 58%);
+  --mcyan: hsl(170, 45%, 43%);
+  --lgblue: hsl(240, 75%, 98%);
+  --lgray: hsl(0, 0%, 75%);
+  --hfont: "Raleway", sans-serif;
+  --bfont: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--bfont);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  display: inline;
+  padding: 7px;
+  font-size: 14px;
+  font-family: var(--hfont);
+  color: rgba(0, 0, 0, 0.85);
+}
+.navbar img {
+  width: 95px;
+}
+.hero-img1 img {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+.hero-text h2 {
+  text-align: center;
+  color: var(--vdblue);
+  font-family: var(--hfont);
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.hero-text p {
+  text-align: center;
+  color: var(--vdblue);
+  font-size: 15px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+#input-email {
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: var(--lgray);
+  padding-left: 10px;
+}
+.btn {
+  background-color: var(--bblue);
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  color: #eeeeee;
+  font-family: var(--hfont);
+  font-weight: 700;
+  height: 45px;
+  font-size: 15px;
+}
+.img2 {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+.productive {
+  background: url(./images/bg-curve-mobile.svg);
+  background-size: cover;
+}
+.productive-text h2 {
+  text-align: center;
+  color: var(--vdblue);
+  font-family: var(--hfont);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.productive-text p {
+  color: var(--dblue);
+  opacity: 0.8;
+  font-size: 15px;
+}
+.how {
+  border-bottom: 1.5px solid var(--mcyan);
+  margin: 0 auto;
+  width: 46%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.how-txt {
+  color: var(--mcyan);
+  font-size: 13px;
+}
+.how img {
+  height: 20px;
+  width: 20px;
+}
+.card {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+  padding-left: 20px;
+  padding-top: 13px;
+  padding-right: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+.quotes {
+  padding-top: 10px;
+  height: 25px;
+  width: 18px;
+  color: var(--vdblue);
+}
+.card p {
+  color: var(--vdblue);
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card-img img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.card-img {
+  display: flex;
+  margin-top: 15px;
+  padding-bottom: 22px;
+}
+.card-name {
+  font-size: 12px;
+  color: var(--vdblue);
+  font-weight: 700;
+  font-family: var(--hfont);
+}
+.card-job {
+  font-size: 9px;
+  color: var(--dblue);
+}
+.spans {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+.para2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.ea {
+  background-color: var(--dblue);
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.ea h2 {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--hfont);
+  padding-top: 60px;
+  margin-bottom: 25px;
+}
+.ea p {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+#input-email2 {
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+.btn2 {
+  height: 35px;
+  width: 100%;
+  border-radius: 2px;
+  border: none;
+  background-color: var(--bblue);
+  color: #eeeeee;
+  font-family: var(--hfont);
+  font-size: 12px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  font-weight: 700;
+}
+.ea form {
+  margin: 0 auto;
+  width: 68%;
+}
+.footer {
+  background-color: var(--vdblue);
+  color: #eeeeee;
+  width: 90%;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+.footer-bg {
+  background-color: var(--vdblue);
+}
+.footer-logo {
+  filter: brightness(0) invert(1);
+  padding-top: 55px;
+  margin-bottom: 30px;
+}
+.footer-ul {
+  list-style: none;
+  margin-bottom: 50px;
+}
+.footer-ul2 {
+  list-style: none;
+}
+.phone {
+  margin-bottom: 15px;
+}
+.email-end {
+  margin-bottom: 55px;
+}
+.footer-ul li {
+  padding: 10px;
+  padding-left: 0;
+}
+.footer-ul2 li {
+  padding: 10px;
+  padding-left: 0;
+}
+.footer-phone {
+  margin-right: 10px;
+}
+.footer-email {
+  margin-right: 10px;
+}
+.footer3 {
+  text-align: center;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.facebook {
+  border: 1px solid #eeeeee;
+  font-size: 17px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 7px;
+}
+.twitter {
+  border: 1px solid #eeeeee;
+  font-size: 17px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 7px;
+}
+.instagram {
+  border: 1px solid #eeeeee;
+  font-size: 17px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.va {
+  vertical-align: middle;
+  padding: 4px;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .how {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-content: center;
+  }
+  .footer1 {
+    align-self: flex-start;
+  }
+  .footer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .footer-ul {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+  }
+  .footer-ul2 {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .footer3 {
+    align-self: center;
+  }
+  .card {
+    width: 400px;
+  }
+  #input-email {
+    width: 400px;
+  }
+  .btn {
+    width: 400px;
+  }
+  .hero {
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    display: inline-block;
+  }
+  .ea {
+    text-align: center;
+  }
+  #input-email2 {
+    width: 400px;
+  }
+  .btn2 {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero-text {
+    align-self: center;
+  }
+  .btn {
+    width: 150px;
+  }
+  #input-email {
+    width: 250px;
+  }
+  .hero {
+    text-align: left;
+  }
+  .hero .hero-text p {
+    text-align: left;
+  }
+  .productive {
+    background: url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .productive-img {
+    align-self: center;
+  }
+  .productive-text {
+    align-self: flex-end;
+  }
+  .how {
+    margin: 10px 0 50px 0;
+  }
+  .para2 {
+    margin-bottom: 5px;
+  }
+  .card {
+    width: 350px;
+    margin: 5px 0 20px 0;
+  }
+  .productive-text h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .ea {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    text-align: left;
+  }
+  .ea-text h2 {
+    text-align: left;
+    margin: 0 0 12px 30px;
+    padding-top: 50px;
+    font-size: 25px;
+  }
+  .ea-text p {
+    text-align: left;
+    margin: 0 0 5px 30px;
+    width: 70%;
+  }
+  #input-email2 {
+    width: 360px;
+    margin-top: 60px;
+  }
+  .btn2 {
+    width: 200px;
+  }
+  .ea-text {
+    width: 700px;
+  }
+  .navbar {
+    margin-top: 30px;
+  }
+  .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .navbar img {
+    width: 120px;
+  }
+  .ea {
+    height: 290px;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    width: 200px;
+  }
+  #input-email {
+    width: 300px;
+  }
+  .footer1 {
+    width: 500px;
+  }
+  .footer2 {
+    width: 650px;
+  }
+  .ea-text {
+    width: 850px;
+    margin-left: 70px;
+  }
+  .ea-form {
+    justify-self: center;
+  }
+  #input-email2 {
+    width: 450px;
+    margin-left: 100px;
+  }
+  .btn2 {
+    width: 225px;
+    margin-left: 100px;
+  }
+  .hero-text h2 {
+    text-align: left;
+    font-size: 30px;
+  }
+  .hero-text p {
+    text-align: left;
+    margin-left: 0;
+  }
+}
